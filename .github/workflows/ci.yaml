@@ -89,7 +89,7 @@ jobs:
       run: |
         git config --global user.email "subash.jaishankar@gmail.com"
         git config --global user.name "subash-bj"
-        git add helm/go-web-chart/values.yaml
+        git add helm/go-chart/values.yaml
         git commit -m "Update tag in Helm chart"
         git push
 
