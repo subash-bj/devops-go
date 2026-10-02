@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: subash111/go-web:{{ .Values.image.tag }}
+        image: subashacr.azurecr.io/go-web:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
